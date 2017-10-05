@@ -46,8 +46,8 @@ body {
   width: 100vw;
   top: 0;
   left: 0;
-  background: #48a0b5;
-  opacity: 0.5;
+  background: #398294;
+  opacity: 0.55;
   z-index: 1;
 }
 
@@ -62,22 +62,27 @@ body {
   font-size: 4em;
   font-weight: 700;
   letter-spacing: 10px;
+  text-transform: capitalize;
 }
 
 
-.btn {
+a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 22px;
-  color: #fff;
+  color: #f7f7f7;
   background-color: rgb(213, 142, 141);
   padding: 1.2rem 4.5rem;
-  border-radius: 3.2px;
+  border-radius: 4.2px;
   font-weight: 400;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: 3px 3px 15px #4e4d4d;
 }
 
-.btn:hover {
-  background: #f7f7f7;
-  color: rgb(213, 142, 141);
+a:hover {
+  background-color:#c86f6f;
+  color: #fff;
+  transition: all 0.3s ease-in-out 0s;
 }
