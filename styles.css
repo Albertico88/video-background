@@ -16,6 +16,7 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
+  color: #fff;
 }
 
 .container {
@@ -45,20 +46,38 @@ body {
   width: 100vw;
   top: 0;
   left: 0;
-  background: #225460;
+  background: #48a0b5;
   opacity: 0.5;
   z-index: 1;
 }
 
 .header-content {
+  width: 100%;
   z-index: 2;
+}
+
+.header-content h1 {
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 10px;
 }
 
 
 .btn {
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 22px;
   color: #fff;
   background-color: rgb(213, 142, 141);
-  padding: 1.2em;
-  border-radius: 2.2px;
+  padding: 1.2rem 4.5rem;
+  border-radius: 3.2px;
+  font-weight: 400;
+}
+
+.btn:hover {
+  background: #f7f7f7;
+  color: rgb(213, 142, 141);
 }
